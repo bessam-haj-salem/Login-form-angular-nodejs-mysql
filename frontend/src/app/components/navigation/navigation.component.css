@@ -1,0 +1,22 @@
+mat-toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 64px;
+}
+
+mat-toolbar a {
+  text-decoration: none;
+}
+
+mat-toolbar a.active-link {
+  color: white;
+}
+
+mat-toolbar a span {
+  margin-left: 24px;
+}
+/*# sourceMappingURL=navigation.component.css.map */
